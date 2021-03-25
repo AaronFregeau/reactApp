@@ -85,8 +85,6 @@ export default class LeagueList extends Component {
     submit() {
         console.log(this.state.inputValue)
         console.log(this.state.items.map(item => item.content))
-        console.log(process.env.APP_ID)
-
 
         db.collection("champs").doc(this.state.inputValue).set({
             champs: this.state.items.map(item => item.content)
