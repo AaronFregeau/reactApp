@@ -2,12 +2,16 @@
   "name": "simple-reactjs-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aditya-sridhar.github.io/simple-reactjs-app",
   "dependencies": {
+    "@google-cloud/firestore": "^4.9.8",
     "axios": "^0.21.1",
-    "react": "^16.4.1",
+    "firebase": "^8.3.1",
+    "firebase-admin": "^9.5.0",
+    "react": "^16.6.0",
+    "react-beautiful-dnd": "^10.1.1",
     "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.14.0",
+    "react-dom": "^16.6.0",
+    "react-modal": "^3.12.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
@@ -20,6 +24,7 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "gh-pages": "^1.2.0"
   }
 }
